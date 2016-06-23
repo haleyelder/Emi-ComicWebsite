@@ -1,0 +1,34 @@
+body {
+  background-color: lightgreen;
+}
+
+#top-banner img{
+   margin: 0 auto;
+}
+
+#navbar {
+  border: 1px solid red;
+}
+#navbar ul {
+  margin: 20px auto;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+  border: none;
+  background-color: black;
+}
+
+.nav-pills>li.active>a:hover {
+
+  background-color: darkgreen;
+}
+
+#main-content {
+  float:left;
+  display:inline-block;
+}
+#sidebar {
+  float: right;
+  display:inline-block;
+
+}
