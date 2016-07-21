@@ -1,18 +1,49 @@
+/*
+< 768 (mobile)
+768 - sm (tablet)
+992 - md (desktop)
+1200 - lg (lg desk)
+*/
+
+
 body {
   background-color: #60d672;
   background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
   background-size: 100px 100px;
 }
 .container-fluid {
-  border: 1px solid red;
-  width: 75%;
   margin: 0 auto;
   background-color: lightgray;
+  width:75%;
+}
+
+#navbar {
+  width: 75%;
+  background-color: gray;
+  margin: 0 auto;
+
+}
+
+#navbar > div > ul > li {
+  border: none;
+  background-color: black;
+  text-align: center;
+  width: 85%;
+  margin: 7px 23px;
+}
+
+#navbar div ul li a {
+  color: white;
+}
+
+#navbar div ul li a:hover {
+  border-radius: 0;
+  color: blue;
 }
 
 .post {
   background-color: darkgray;
-  padding: 5px 10px 5px;
+  padding: 1px 10px 12px;
   margin: 10px;
 }
 
@@ -20,28 +51,7 @@ body {
    margin: 0 auto;
 }
 
-#navbar {
-  background-color: darkgray;
-}
-#navbar ul {
-  padding: 20px;
-}
 
-.nav-pills li  {
-  border: none;
-  background-color: black;
-  color: white;
-  width: 20%;
-  margin: 0 30px;}
-
-.nav-pills a {
-  color: white;
-  text-align: center;
-}
-.nav-pills li a:hover {
-  background-color: navy;
-
-}
 
 #main-content {
   float:left;
@@ -70,7 +80,6 @@ body {
 }
 
 footer {
-  border: 1px solid blue;
   margin: 0 auto;
   width: 75%;
   background-color: gray;
