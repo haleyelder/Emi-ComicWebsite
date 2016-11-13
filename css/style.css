@@ -70,7 +70,7 @@ i {
 
 #main-content {
   float:left;
-  display:inline-block;
+  display:inline;
 }
 
 #sidebar {
@@ -78,9 +78,6 @@ i {
   padding: 10px 20px;
 }
 
-#sidebar p {
-  margin-left: 10px;
-}
 footer {
   margin: 0 auto;
   background-color: gray;
@@ -88,4 +85,21 @@ footer {
   text-align: center;
   padding:5px;
   
+}
+
+@media only screen and (min-width: 768px) {
+  .post {
+    padding: 1px 9px 6px;
+    width:75%;
+  }
+
+  #sidebar {
+    float:right;
+    display:inline;
+    width: 25%;
+  }
+
+    #sidebar p {
+      margin-left: 10px;
+  }
 }
