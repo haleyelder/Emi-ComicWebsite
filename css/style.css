@@ -70,12 +70,22 @@ i {
 
 #main-content {
   float:left;
-  display:inline;
+  
 }
 
-#sidebar {
+#sidebar-md {
   background-color: darkgray;
   padding: 10px 20px;
+}
+
+.sidebar-footer-columns {
+  width: 33%;
+  float: left;
+  background-color: darkgray;
+  padding: 10px 24px;
+}
+.sidebar-footer-columns a {
+  margin-left: 20px;
 }
 
 footer {
@@ -90,16 +100,17 @@ footer {
 @media only screen and (min-width: 768px) {
   .post {
     padding: 1px 9px 6px;
-    width:75%;
+    width:65%;
+    float:left;
   }
 
-  #sidebar {
+  #sidebar-md {
     float:right;
-    display:inline;
-    width: 25%;
+    
+    width: 32%;
   }
 
-    #sidebar p {
+    #sidebar-md a {
       margin-left: 10px;
   }
 }
