@@ -43,13 +43,17 @@ i {
   margin: 10px auto;
 }
 
+#navbar div ul li:hover {
+  background-color: darkgreen;
+}
 #navbar div ul li a {
   color: white;
 }
 
 #navbar div ul li a:hover {
   border-radius: 0;
-  color: blue;
+  text-decoration: none;
+  background-color: darkgreen;
 }
 
 .post {
@@ -78,6 +82,11 @@ i {
 #sidebar-md {
   background-color: darkgray;
   padding: 10px 20px;
+}
+
+#sidebar-md div p a:hover,
+#sidebar-xs div p a:hover{
+  text-decoration: none;
 }
 
 .sidebar-footer-columns {
@@ -115,7 +124,26 @@ footer {
     margin: 10px 1%;
   }
 
-    #sidebar-md a {
+  #sidebar-md a {
       margin-left: 10px;
   }
+  #show-nav {
+    display: none;
+
+ }
+ .desktop-nav li {
+    list-style-type: none;
+    width: 23% !important;
+    float: left !important;
+    margin: 0px 2px !important;
+    padding: 6px;
+ }
+ 
+
+ #navbar {
+  padding: 0 0 20px 0;
+ }
+
+
+
 }
